@@ -1,0 +1,13 @@
+-------------------------------------------------------------
+Lesson 2: How to Really Generate Virtual Scenarios
+-------------------------------------------------------------
+
+	(a) Running the Simulation
+
+Folder: C_GN
+File: c_VS.m
+Very easy to use. Qua_year is how much years in each simulation file and qua_repeat is how much simulation files there are.
+
+	(b) Output Folder
+Folder: A_DT
+Look inside all the files for the outputs.

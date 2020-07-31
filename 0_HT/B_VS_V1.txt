@@ -1,0 +1,44 @@
+-------------------------------------------------------------
+Lesson 1: How to Generate Virtual Scenarios for Test Purposes
+-------------------------------------------------------------
+
+	(a) LD (Load Demanded)
+
+Folder: A_DT/A0_LD
+M-File: 0_Data_LD.mat
+Use a repmat function for the number of years needed
+
+	(b) DG (Distributed Generator)
+
+Folder: B_VS/B1_DG
+M-File: y1a_UltimateDG
+Substitute years_count on line-23 with the number of years desired
+
+Folder: B_VS/B1_DG
+M-File: y5a_SupremeDG
+On line 25, the first number is the number of years to be simulated and the second number is the steps in years. Found this to be ultimately useless
+
+Folder: B_VS/B1_DG
+M-File: 1_Data_DG.mat
+Everything is saved here
+
+Folder: B_VS/B1_DG
+M-File: z1a_UltimateDG.m
+Will describe later
+
+	(c) PV (Photovoltac Panels)
+
+Folder: B_VS/B2_PV
+M-File: y5b_SupremePV.m
+Pretty self explanatory
+
+	(d) WT (Wind Turbine)
+
+Folder: B_VS/B3_WT
+M-File: y5c_SupremeWT.m
+Again, self explanatory. But I think what is needed is Virtual_WT_V1
+
+	(e) EV (Electric Vehicle)
+Folder: B_VS/B4_EV
+M-File: y4UltimateEv.m
+First number is years_count and second number is parks_count

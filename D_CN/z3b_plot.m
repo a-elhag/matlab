@@ -1,0 +1,25 @@
+function [] = z3b_plot(Y_LOLE,Y_LOLE_sc,Y_EENS,Y_EENS_sc)
+
+figure
+subplot(2,1,1)
+plot(Y_LOLE)
+title('LOLE')
+xlabel('Simulations (Years)')
+ylabel('Hours per Year')
+subplot(2,1,2)
+plot(Y_LOLE_sc)
+title('LOLE Standard Deviation')
+xlabel('Simulations (Years)')
+ylabel('Hours per Year')
+
+figure
+subplot(2,1,1)
+plot(Y_EENS)
+title('EENS')
+xlabel('Simulations (Years)')
+ylabel('Hours per Year')
+subplot(2,1,2)
+plot(Y_EENS_sc)
+title('EENS Standard Deviation')
+xlabel('Simulations (Years)')
+ylabel('Hours per Year')
